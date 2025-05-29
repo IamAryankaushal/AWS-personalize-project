@@ -1,0 +1,52 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "com.amazonaws.personalize.schema",
+  "fields": [
+    {
+      "name": "UserID",
+      "type": "string"
+    },
+    {
+      "name": "OrganizationSize",
+      "type": "string"
+    },
+    {
+      "name": "Industry",
+      "type": "string"
+    },
+    {
+      "name": "CloudMaturity",
+      "type": "string"
+    },
+    {
+      "name": "Budget",
+      "type": "string"
+    },
+    {
+      "name": "PriorityPerformance",
+      "type": "int"
+    },
+    {
+      "name": "PrioritySecurity",
+      "type": "int"
+    },
+    {
+      "name": "PriorityReliability",
+      "type": "int"
+    },
+    {
+      "name": "PriorityCost",
+      "type": "int"
+    },
+    {
+      "name": "RegionPreference",
+      "type": "string"
+    },
+    {
+      "name": "PreviousProvider",
+      "type": "string"
+    }
+  ],
+  "version": "1.0"
+}

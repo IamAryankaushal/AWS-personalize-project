@@ -1,0 +1,21 @@
+﻿UserID,OrganizationSize,Industry,CloudMaturity,Budget,PriorityPerformance,PrioritySecurity,PriorityReliability,PriorityCost,RegionPreference,PreviousProvider
+u001,Enterprise,Healthcare,Advanced,High,4,5,5,3,US-East-1,Azure
+u002,SMB,Retail,Beginner,Low,3,3,3,5,US-West-2,None
+u003,Startup,Technology,Intermediate,Medium,5,4,3,4,EU-West-1,GCP
+u004,Enterprise,Financial,Advanced,High,4,5,5,2,US-East-1,On-Premise
+u005,SMB,Manufacturing,Beginner,Medium,2,3,4,5,AP-Southeast-1,None
+u006,Startup,Media,Beginner,Low,5,2,4,5,US-West-2,None
+u007,Enterprise,Insurance,Intermediate,High,3,5,5,2,EU-Central-1,On-Premise
+u008,Government,Public Sector,Intermediate,Medium,3,5,4,3,US-Gov-West-1,On-Premise
+u009,Education,Education,Beginner,Low,2,3,4,5,US-East-2,Azure
+u010,Enterprise,Telecommunications,Advanced,High,5,4,5,3,Global,Multiple
+u011,SMB,Professional Services,Intermediate,Medium,3,4,3,4,US-East-1,None
+u012,Startup,Gaming,Advanced,Medium,5,3,4,3,AP-Northeast-1,GCP
+u013,Enterprise,Automotive,Intermediate,High,4,4,5,3,EU-West-1,On-Premise
+u014,SMB,Hospitality,Beginner,Low,3,3,3,5,US-West-1,None
+u015,Startup,Fintech,Advanced,Medium,5,5,4,3,US-East-1,GCP
+u016,Enterprise,Energy,Intermediate,High,3,4,5,2,Global,On-Premise
+u017,SMB,Real Estate,Beginner,Low,2,3,3,5,US-East-1,None
+u018,Startup,E-commerce,Intermediate,Medium,5,4,4,5,EU-West-2,Azure
+u019,Enterprise,Pharmaceuticals,Advanced,High,4,5,5,2,US-East-1,Multiple
+u020,SMB,Construction,Beginner,Low,2,3,4,5,US-West-2,None

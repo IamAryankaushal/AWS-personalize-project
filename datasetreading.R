@@ -1,0 +1,13 @@
+setwd("C:/F13/PERSONALIZE")
+getwd()
+
+library(tidyverse)
+aws<-read.csv("Sample-AWS-Services-dataset.csv",header=TRUE,stringsAsFactors = FALSE)
+head(aws,10)
+dim(aws)
+user<-read.csv("Sample-User-profiles-dataset.csv",header=TRUE,stringsAsFactors = FALSE)
+head(user,10)
+dim(user)
+user_service<-read.csv("Sample-User-service-interaction.csv",header=TRUE,stringsAsFactors = FALSE)
+head(user_service,10)
+dim(user_service)

@@ -1,0 +1,49 @@
+ITEM_ID,ServiceName,Category,Description,PricingModel,ScalabilityLevel,SecurityLevel,AvailabilityZones,MinimumCommitment,PrimaryUseCase
+s001,Amazon RDS,Database,Managed relational database service,Usage-based,High,High,Multi-AZ,None,Relational data storage
+s002,Amazon DynamoDB,Database,NoSQL database service,Usage-based,Very High,High,Global,None,High-performance NoSQL data
+s003,Amazon Aurora,Database,MySQL and PostgreSQL compatible database,Usage-based,High,High,Multi-AZ,None,Enterprise database workloads
+s004,Amazon DocumentDB,Database,MongoDB compatible document database,Usage-based,High,High,Multi-AZ,None,Document database workloads
+s005,Amazon Redshift,Database,Data warehousing service,Usage-based,High,High,Single-AZ,None,Data warehousing and analytics
+s006,Amazon S3,Storage,Object storage service,Usage-based,Very High,High,Multi-Region,None,Durable object storage
+s007,Amazon EBS,Storage,Block storage for EC2,Usage-based,Medium,Medium,Single-AZ,None,EC2 instance storage
+s008,Amazon EFS,Storage,Elastic file system,Usage-based,High,High,Regional,None,Shared file storage
+s009,Amazon FSx,Storage,Managed file system service,Usage-based,High,High,Multi-AZ,None,Windows/Lustre file systems
+s010,AWS Glacier,Storage,Long-term archive storage,Usage-based,Very High,High,Regional,None,Data archiving
+s011,Amazon EC2,Compute,Virtual server hosting,Usage-based,High,Medium,Multi-AZ,None,General compute workloads
+s012,AWS Lambda,Compute,Serverless compute service,Usage-based,Very High,High,Regional,None,Event-driven computing
+s013,Amazon ECS,Compute,Container orchestration service,Usage-based,High,High,Regional,None,Docker container management
+s014,Amazon EKS,Compute,Managed Kubernetes service,Usage-based,High,High,Regional,None,Kubernetes orchestration
+s015,AWS Fargate,Compute,Serverless container service,Usage-based,High,High,Regional,None,Container compute without servers
+s016,Amazon API Gateway,Networking,API management service,Usage-based,Very High,High,Regional,None,API creation and management
+s017,Amazon CloudFront,Networking,Content delivery network,Usage-based,Very High,High,Global,None,Global content delivery
+s018,Amazon Route 53,Networking,DNS service,Usage-based,Very High,High,Global,None,DNS routing and registration
+s019,AWS Direct Connect,Networking,Dedicated network connection service,Fixed+Usage,Medium,Very High,Regional,Monthly,Dedicated cloud connectivity
+s020,Amazon Cognito,Security,User authentication service,Usage-based,High,Very High,Regional,None,User identity and access management
+s021,AWS IAM,Security,Identity and Access Management,Free,High,Very High,Global,None,Access control and permissions
+s022,AWS Shield,Security,DDoS protection service,Usage-based,High,Very High,Global,None,DDoS attack protection
+s023,AWS WAF,Security,Web Application Firewall,Usage-based,High,Very High,Global,None,Protect web applications
+s024,AWS Config,Management,Resource configuration tracking,Usage-based,High,High,Regional,None,Track AWS resource changes
+s025,AWS CloudTrail,Management,User activity monitoring,Usage-based,High,High,Global,None,Audit AWS account activity
+s026,AWS CloudWatch,Monitoring,Monitoring and observability service,Usage-based,High,High,Global,None,Logs and metrics monitoring
+s027,AWS X-Ray,Monitoring,Distributed tracing service,Usage-based,High,High,Global,None,Application performance tracing
+s028,AWS Step Functions,Compute,Serverless workflow automation,Usage-based,High,High,Regional,None,Orchestrate AWS services
+s029,AWS Glue,Analytics,ETL and data cataloging,Usage-based,High,High,Regional,None,Data preparation and transformation
+s030,Amazon Athena,Analytics,Serverless SQL query service,Usage-based,High,High,Regional,None,Analyze data in S3
+s031,Amazon SageMaker,AI/ML,Machine learning model training and deployment,Usage-based,High,High,Regional,None,Build and train ML models
+s032,Amazon Rekognition,AI/ML,Image and video analysis,Usage-based,High,High,Regional,None,Facial recognition and object detection
+s033,Amazon Polly,AI/ML,Text-to-speech service,Usage-based,High,High,Regional,None,Convert text into speech
+s034,Amazon Textract,AI/ML,Document text extraction,Usage-based,High,High,Regional,None,Extract text from scanned documents
+s035,AWS IoT Core,IoT,Managed IoT platform,Usage-based,High,High,Global,None,Connect and manage IoT devices
+s036,AWS Greengrass,IoT,Local compute for IoT devices,Usage-based,High,High,Regional,None,Run AWS services on IoT devices
+s037,AWS Snowball,Migration,Data transfer appliance,Fixed+Usage,Medium,High,Physical,None,Migrate large datasets to AWS
+s038,AWS Transfer Family,Storage,Managed file transfer service,Usage-based,High,High,Regional,None,Secure FTP and SFTP transfers
+s039,AWS Backup,Storage,Centralized backup service,Usage-based,High,High,Regional,None,Automated backups of AWS resources
+s040,AWS Outposts,Hybrid,On-premises AWS infrastructure,Fixed+Usage,High,High,Physical,Yearly,Extend AWS to on-premises
+s041,AWS DataSync,Storage,Automated data transfer service,Usage-based,High,High,Regional,None,Move data between AWS and on-prem
+s042,Amazon Elastic Transcoder,Media,Media transcoding service,Usage-based,High,High,Regional,None,Convert media files
+s043,AWS Elemental MediaConvert,Media,File-based video transcoding,Usage-based,High,High,Regional,None,Professional media conversion
+s044,AWS Ground Station,Satellite,Satellite communications service,Usage-based,High,High,Global,None,Satellite data processing
+s045,Amazon Timestream,Database,Time series database service,Usage-based,High,High,Regional,None,Time series data storage
+s046,AWS App Runner,Compute,Managed container application service,Usage-based,High,High,Regional,None,Run web apps without infrastructure management
+s047,AWS CodeBuild,DevOps,Continuous integration service,Usage-based,High,High,Regional,None,Automate code builds
+s048,AWS CodePipeline,DevOps,Continuous delivery service,Usage-based,High,High,Regional,None,Automate application deployment

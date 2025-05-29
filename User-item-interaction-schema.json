@@ -1,0 +1,48 @@
+{
+  "type": "record",
+  "name": "Interaction",
+  "namespace": "com.amazonaws.personalize.schema",
+  "fields": [
+    {
+      "name": "USER_ID",
+      "type": "string"
+    },
+    {
+      "name": "ITEM_ID",
+      "type": "string"
+    },
+    {
+      "name": "TIMESTAMP",
+      "type": "long"
+    },
+    {
+      "name": "InteractionType",
+      "type": "string"
+    },
+    {
+      "name": "Rating",
+      "type": ["null", "float"]
+    },
+    {
+      "name": "UsageDuration",
+      "type": ["null", "float"]
+    },
+    {
+      "name": "UsageFrequency",
+      "type": ["null", "string"]
+    },
+    {
+      "name": "CostIncurred",
+      "type": ["null", "float"]
+    },
+    {
+      "name": "TimeSpent",
+      "type": ["null", "float"]
+    },
+    {
+      "name": "Converted",
+      "type": "boolean"
+    }
+  ],
+  "version": "1.0"
+}

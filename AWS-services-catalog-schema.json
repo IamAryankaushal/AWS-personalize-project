@@ -1,0 +1,48 @@
+{
+  "type": "record",
+  "name": "Item",
+  "namespace": "com.amazonaws.personalize.schema",
+  "fields": [
+    {
+      "name": "ITEM_ID",
+      "type": "string"
+    },
+    {
+      "name": "ServiceName",
+      "type": "string"
+    },
+    {
+      "name": "Category",
+      "type": "string"
+    },
+    {
+      "name": "Description",
+      "type": "string"
+    },
+    {
+      "name": "PricingModel",
+      "type": "string"
+    },
+    {
+      "name": "ScalabilityLevel",
+      "type": "string"
+    },
+    {
+      "name": "SecurityLevel",
+      "type": "string"
+    },
+    {
+      "name": "AvailabilityZones",
+      "type": "string"
+    },
+    {
+      "name": "MinimumCommitment",
+      "type": "string"
+    },
+    {
+      "name": "PrimaryUseCase",
+      "type": "string"
+    }
+  ],
+  "version": "1.0"
+}
