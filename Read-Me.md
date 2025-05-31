@@ -4,7 +4,7 @@
 
 This project demonstrates the development of a **real-time personalized recommendation system** using **Amazon Personalize**, an AWS-managed machine learning service. The system provides dynamic content recommendations based on user interactions, item metadata, and contextual data.
 
-> This was a **group project** developed during an **AWS Cloud internship**, under the guidance of a mentor. Contributions were made collaboratively across design, implementation, and testing phases.
+> This was a **group project** developed during an **AWS Cloud internship** during my time at **F13 Technologies**, under the guidance of a mentor. Contributions were made collaboratively across design, implementation, and testing phases.
 
 ---
 
